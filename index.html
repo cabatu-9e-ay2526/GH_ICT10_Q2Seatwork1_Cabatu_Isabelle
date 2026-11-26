@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- PyScript CSS -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <!-- This script tag bootstraps PyScript -->
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Q2 Seatwork 1</title>
+</head>
+<body>
+     <nav class="navbar">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                EVER AFTER HIGH
+            </a>
+
+            <div class="navbar-links">
+                <a href="index.html">Homepage</a>
+                <a href="skills-test.html">Element Checker</a>
+                <a href="drill.html">School Club Members</a>
+                <a href="designer.html">Meet the Creator</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <header class="text-center p-4">
+
+        <p class="subtitle mb-2">
+            ✧ THE STORYBOOK OF NEW BEGINNINGS ✧
+        </p>
+
+        <h1 class="title">
+            EVER AFTER HIGH
+        </h1>
+
+        <p class="mb-0">
+            The Enchanted MONARCH Registry
+        </p>
+
+    </header>
+
+    <main class="container py-4">
+
+        <div class="club-card">
+
+            <div class="text-center mb-4">
+
+                <h2>Candidate Verification</h2>
+
+                <p class="subtitle">
+                    MONARCH Dance Club
+                </p>
+
+                <p>
+                    Every great story begins with a name.
+                    Check if you are on the MONARCH member list!
+                </p>
+
+            </div>
+
+            <label for="firstname" class="form-label">
+                First Name
+            </label>
+
+            <input
+                type="text"
+                id="firstname"
+                class="form-control mb-3"
+                placeholder="Enter your first name">
+
+            <label for="lastname" class="form-label">
+                Last Name
+            </label>
+
+            <input
+                type="text"
+                id="lastname"
+                class="form-control mb-4"
+                placeholder="Enter your last name">
+
+            <button
+                type="button"
+                py-click="member_checker"
+                class="btn submit-btn w-100">
+
+                Check My Name
+
+            </button>
+
+            <div class="results-box mt-4" id="result">
+                Your story awaits...
+            </div>
+
+            <p class="text-center mt-4 mb-0">
+                ✧ ♛ ✧
+            </p>
+
+        </div>
+
+    </main>
+
+    <footer>
+        Ever After High • MONARCH Dance Club • Seatwork 1
+    </footer>
+
+    <script type="py" src="main.py"></script>
+
+    
+</body>
+</html>
